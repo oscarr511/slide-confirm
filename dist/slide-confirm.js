@@ -1433,7 +1433,7 @@ class $3fffcf1c09fcf223$export$eb0022d780a83cd2 extends (0, $ab210b2da7b39b9d$ex
             setTimeout(()=>{
                 this._container.classList.remove("confirmed");
                 this._confirmed = false;
-            }, 15000);
+            }, 5000);
         }
         this._handle.classList.remove("dragging");
         this._handle.onpointermove = null;
